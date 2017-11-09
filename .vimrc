@@ -14,6 +14,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdtree'                  " File browser
 Plug 'jistr/vim-nerdtree-tabs'              " One NERDTree to rule them all
 Plug 'scrooloose/nerdcommenter'             " Multi-line comments
+Plug 'christoomey/vim-tmux-navigator'       " Pane navigation tmux/vim
 Plug 'w0rp/ale'
 Plug 'tpope/vim-repeat'
 call plug#end()

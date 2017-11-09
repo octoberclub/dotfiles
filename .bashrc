@@ -1,5 +1,5 @@
-export BASH_CONF="bashrc"
-export EDITOR="vim"
-source ~/.bin/tmuxinator.bash
+alias ll='ls -lG'
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
+export PATH="$HOME/.yarn/bin:$PATH"
