@@ -17,7 +17,6 @@ fi
 
 alias ll='ls -l'
 alias hg='history | grep '
-alias n='nvim'
 
 eval "$(hub alias -s)"
 
