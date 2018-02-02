@@ -11,14 +11,8 @@ if [ -f ~/.git-completion.bash ]; then
   . ~/.git-completion.bash
 fi
 
-if [ -f ~/.hub-completion.bash ]; then
-  . ~/.hub-completion.bash
-fi
-
 alias ll='ls -l'
 alias hg='history | grep '
-
-eval "$(hub alias -s)"
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 export HISTSIZE=
