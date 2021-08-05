@@ -1,11 +1,12 @@
 [user]
-	name = octoberclub
-	email = octoberclub@gmail.com
+	name = michelle.steele
+	email = michelle.steele@avalara.com
 [alias]
 	st = status
 	ci = commit
 	br = branch
 	co = checkout
+  cp =  cherry-pick
 	df = diff
 	dc = diff --cached
 	lg = log -p
@@ -28,3 +29,5 @@
 	unstage = reset HEAD --
 [merge]
 	tool = kdiff3
+[core]
+	excludesfile = /Users/michelle.steele/.gitignore_global
